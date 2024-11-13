@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            margin:0;
+        }
+
+/* Create two equal columns that floats next to each other */
+.gallerycolumn {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* on scroll */
+@keyframes appear {
+    from{
+        opacity:0;
+        scale:0.4;
+    }
+    to{
+        opacity:1;
+        scale:1;
+    }
+}
+
+.gallerycolumn img {
+  margin-top: 12px;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0;
+}
+
+/* Clear floats after the columns */
+.galleryrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#navbardesktop {
+  width:100%;
+  padding: 1.5em;
+  top:0;
+}
+#navbardesktop a {
+  color: black;
+  text-decoration: none;
+  padding: .5em .5em;
+}
+#navbardesktop ul {
+  align-items: center;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display:flex;
+  justify-content:space-evenly;
+}
+
+#navbardesktop li{
+  display:flex;
+  font-size: 13px;
+  font-weight: 700;
+  color:black;
+  max-width: 100%;
+}
+
+#navbardesktop a:link{
+  color: black;
+}
+
+#navbardesktop a:hover{
+  text-decoration: underline;
+}
+
+#navbarmobile {
+  display:none;
+}
+
+.button a{
+  text-decoration:none;
+
+}
+
+    </style>
+    <body>
+<head>
+    <!--<link rel="stylesheet" href="./css/gallery.css">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography|Bella Coats</title>
+</head>
+</body>
+<nav id="navbardesktop">
+    <div id="navdesktop"> <ul>
+        <li><strong>BELLA COATS</strong></li> 
+        <li><a href="index.html" >Home</a></li> 
+       <!-- <li><a href="aboutme.html">About Me</a></li> -->
+        <li><a href="music.html">Music</a></li>
+        <li><a href="gallery.html">Photography</a></li>
+        <li><a href="contact.html">Contact Me!</a></li></ul>
+     </div>
+</nav>
+<!--
+<nav id="navbarmobile">
+    <div id="navmobile"> <ul>
+        <li><strong>BELLA COATS</strong></li>
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="gallery.html">Photography</a></li>
+        <li><a href="contact.html">Contact Me!</a></li></ul>
+     </div>
+</nav> -->
+
+<!-- images for gallery -->
+ <div class="galleryrow">
+    <div class="gallerycolumn">
+        <img src="galleryimg/fencegrass.jpeg" style="width:100%">
+        <img src="galleryimg/oldcar.jpeg" style="width:100%">
+        <img src="galleryimg/balloon.jpeg"style="width:100%">
+        <img src="galleryimg/banks.jpeg" style="width:100%">
+        <img src="galleryimg/blackmountains.jpeg" style="width:100%">
+        <img src="galleryimg/bluelake.jpeg" style="width:100%">
+        <img src="galleryimg/blurrywater.jpeg" style="width:100%">
+        <img src="galleryimg/board.jpeg" style="width:100%">
+        <img src="galleryimg/bondi.jpeg" style="width:100%">
+        <img src="galleryimg/bridge.jpeg" style="width:100%">
+        <img src="galleryimg/christmas.jpeg" style="width:100%">
+    </div> 
+    <div class="gallerycolumn">
+        <img src="galleryimg/filmflatties.jpeg" style="width:100%">
+        <img src="galleryimg/carbow.jpeg" style="width:100%">
+        <img src="galleryimg/isabelle.jpeg" style="width:100%">
+        <img src="galleryimg/goldenleaves.jpeg" style="width:100%">
+        <img src="galleryimg/clouds.jpeg" style="width:100%">
+        <img src="galleryimg/coffee.jpeg" style="width:100%">
+        <img src="galleryimg/fenceballoons.jpeg" style="width:100%">
+        <img src="galleryimg/dawn.jpeg" style="width:100%">
+        <img src="galleryimg/dunes.jpeg" style="width:100%">
+        <img src="galleryimg/dunescouple.jpeg" style="width:100%">
+        <img src="galleryimg/duomo2.jpeg" style="width:100%">
+        <img src="galleryimg/yokelore.jpeg" style="width:100%">
+
+    </div>
+    <div class="gallerycolumn">
+        <img src="galleryimg/goldentrees.jpeg" style="width:100%">
+        <img src="galleryimg/greentrees.jpeg" style="width:100%">
+        <img src="galleryimg/haiyahafilm.jpeg" style="width:100%">
+        <img src="galleryimg/bowroad.jpeg" style="width:100%">
+        <img src="galleryimg/michaela.jpeg" style="width:100%">
+        <img src="galleryimg/mtpeeking.jpeg" style="width:100%">
+        <img src="galleryimg/frank.jpeg" style="width:100%">
+        <img src="galleryimg/park.jpeg" style="width:100%">
+        <img src="galleryimg/pinkflowers.jpeg" style="width:100%">
+        <img src="galleryimg/pisaharing.jpeg" style="width:100%">
+        <img src="galleryimg/plane.jpeg" style="width:100%">
+        <img src="galleryimg/poppies.jpeg" style="width:100%">
+    </div>
+    <div class="gallerycolumn">
+        <img src="galleryimg/steamboat.jpeg" style="width:100%">
+        <img src="galleryimg/alice.jpeg"style="width:100%">
+        <img src="galleryimg/samcasey.jpeg" style="width:100%">
+        <img src="galleryimg/seavees.jpeg" style="width:100%">
+        <img src="galleryimg/sidehouse.jpeg" style="width:100%">
+        <img src="galleryimg/window.jpeg" style="width:100%">
+        <img src="galleryimg/streettree.jpeg" style="width:100%">
+        <img src="galleryimg/surfer.jpeg" style="width:100%">
+        <img src="galleryimg/tent.jpeg" style="width:100%">
+        <img src="galleryimg/treelight.jpeg" style="width:100%">
+        <img src="galleryimg/tunnel.jpeg" style="width:100%">
+        <img src="galleryimg/willow.jpeg" style="width:100%">
+    </div>
+ </div>
+

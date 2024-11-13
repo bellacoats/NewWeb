@@ -9,8 +9,6 @@ main{
 }
 
 html {
-    background-color: black;
-    color: #f9f2e1;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: normal;
     font-stretch: expanded;
@@ -222,11 +220,9 @@ h4{
 
 div.scroll-container {
   overflow: auto; 
-  height: 8%; 
-  background-color: black; 
-  border: 1px black solid; 
+  height: 8%;  
   padding: 2%; 
-  width: 950px; 
+  width: 975px; 
   margin: 0 auto; 
   white-space: nowrap; 
   font-size: large; 
@@ -236,6 +232,27 @@ div.scroll-container {
 div.scroll-container img {
   padding: 5px;
 }
+
+/* gallery columns and rows
+
+.galleryrow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+Create two (five?) equal columns that sits next to each other 
+.gallerycolumn {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.gallerycolumn img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+*/
+
 
 /*#film{
   display:flex;
@@ -315,7 +332,6 @@ div.scroll-container img {
 /* NAV BAR */
 
 #navbardesktop {
-  background-color: #f9f2e1;
   width:100%;
   padding: 1.5em;
   position: sticky;
@@ -349,7 +365,7 @@ div.scroll-container img {
 }
 
 #navbardesktop a:hover{
-  color:rgb(31, 132, 142);
+  text-decoration: underline;
 }
 
 #navbarmobile {
