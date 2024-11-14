@@ -67,7 +67,7 @@ html {
 
 hr{
   color:white;
-  margin: 40px;
+  margin: 2em;
 }
 
 #list li{
@@ -331,10 +331,14 @@ Create two (five?) equal columns that sits next to each other
 
 /* NAV BAR */
 
+#name{
+  float:left;
+}
+
 #navbardesktop {
   width:100%;
   padding: 1.5em;
-  position: sticky;
+  position: static;
   top:0;
 }
 #navbardesktop a {
@@ -343,13 +347,13 @@ Create two (five?) equal columns that sits next to each other
   padding: .5em .5em;
 }
 #navbardesktop ul {
-  align-items: center;
+  /*align-items: center;*/
   max-width: 100%;
   margin: 0;
   padding: 0;
   list-style: none;
   display:flex;
-  justify-content:space-evenly;
+  justify-content:right;
 }
 
 #navbardesktop li{
@@ -365,7 +369,7 @@ Create two (five?) equal columns that sits next to each other
 }
 
 #navbardesktop a:hover{
-  text-decoration: underline;
+  font-style: italic;
 }
 
 #navbarmobile {
@@ -640,6 +644,7 @@ hr{
   background: black;;
   color:black;
   height:5px;
+  margin:2em;
 }
 
 #row1{
