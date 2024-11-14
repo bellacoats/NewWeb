@@ -6,7 +6,7 @@ img.addEventListener('click',()=> {
    const imgSrc = img.getAttribute('class');
        if (imgSrc == 'pfp'){
        img.setAttribute("class",'other');
-       img.src = "img2/dock.jpg";
+       img.src = "./img2/dock.jpg";
        console.log(img.src);
    } else {
       img.setAttribute("class",'pfp');
