@@ -6,11 +6,11 @@ img.addEventListener('click',()=> {
    const imgSrc = img.getAttribute('class');
        if (imgSrc == 'pfp'){
        img.setAttribute("class",'other');
-       img.src = "img2/dock.jpg";
+       img.src = "img2/winterhike.jpg";
        console.log(img.src);
    } else {
       img.setAttribute("class",'pfp');
-       img.src = "img2/winterhike.JPG";
+       img.src = "img2/dock.JPG";
        console.log(img.src);
    }});
 
