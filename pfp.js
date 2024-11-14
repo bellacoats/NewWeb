@@ -10,7 +10,7 @@ img.addEventListener('click',()=> {
        console.log(img.src);
    } else {
       img.setAttribute("class",'pfp');
-       img.src = "img2/dock.jpg";
+       img.src = "img2/dock.JPG";
        console.log(img.src);
    }});
 
