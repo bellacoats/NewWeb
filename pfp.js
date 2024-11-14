@@ -12,7 +12,7 @@ img.addEventListener('click',()=> {
       img.setAttribute("class",'pfp');
        img.src = "img2/winterhike.JPG";
        console.log(img.src);
-   }});
+   }}); 
 
 var img2 = document.querySelector(".pfp2");
 
