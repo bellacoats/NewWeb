@@ -48,18 +48,25 @@ html {
 }
 
 #col-1 h1{
-  align-content: center;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 35px;
 }
 
 #col-1 h3{
-  align-content: center;
   text-align: justify;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 35px;
 }
 
 #col-1 {
-  flex-direction: column;
-  margin: 35px 35px;
+  display:block;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
 }
 
 #col-2 {
@@ -82,7 +89,7 @@ html {
 
 
 hr{
-  color:white;
+  color:black;
   margin: 2em;
 }
 
