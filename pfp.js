@@ -14,7 +14,7 @@ img.addEventListener('click',()=> {
        console.log(img.src);
    }});
 
-var img2 = document.querySelector(".pfp2");
+/*var img2 = document.querySelector(".pfp2");
 
 img2.addEventListener('click',()=> {
    const imgSrc = img2.getAttribute('class');
@@ -26,4 +26,4 @@ img2.addEventListener('click',()=> {
       img2.setAttribute("class",'pfp2');
        img2.src = "img2/meagain.jpeg";
        console.log(img2.src);
-   }});
+   }});*/
