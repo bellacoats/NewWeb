@@ -257,10 +257,10 @@ div.scroll-container img {
   justify-content: center;
 }
 
-#me{
-  display:flex;
+/*#me{
+  display:grid;
   justify-content: center;
-}
+}*/
 
 .pfp:hover{
   cursor:pointer;
@@ -269,7 +269,7 @@ div.scroll-container img {
   cursor:pointer;
 }
 
-#me img:hover{
+#me, #me2 img:hover{
   cursor:pointer;
 }
 
